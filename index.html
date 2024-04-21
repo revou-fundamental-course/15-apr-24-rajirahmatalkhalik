@@ -3,10 +3,81 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
         <title>Temperatur Converter</title>
     </head>
 
     <body>
+        <main>
+            <header class="main-title">
+                <h1>Temperatur Converter by Raji Rahmatal Khalik</h1>
+            </header>
+
+
+            <section class="main-section">
+                <!--Section Indroduction-->
+                <section>
+                    <p>Masukkan suhu derajat Celcius (&deg;C) ke kotak dibawah, lalu klik tombol Konversi untuk mendapatkan hasil konversi dalam bentuk Fahrenheit (&deg;F).</p>
+                </section>
+    
+                <section class="section-celcius">
+                    <header>
+                        <h3>Celcius (&deg;C)</h3>
+                    </header>
+    
+                    <article>
+                        <input type="number" name="angka" placeholder=" Input">
+
+                        <div class="container-button">
+                            <button  id="button-convert">Convert</button>
+                            <button id="button-reset">Reset</button>
+                            <button id="button-reverse">Reverse</button>
+                        </div>
+                    </article>
+                </section>
+
+                <section class="section-fahrenheit">
+                    <header>
+                        <h3>Fahrenheit (&deg;F)</h3>
+                    </header>
+    
+                    <article>
+                        <input type="number" name="angka" placeholder=" Output">
+                    </article>
+                </section>
+
+                <section class="section-result">
+                    <header>
+                        <h3>Cara Kalkulasi</h3>
+                    </header>
+    
+                    <article>
+                        <input type="text" name="teks" placeholder=" Method">
+                    </article>
+                </section>
+
+                <!--Section Explanation-->
+                <section class="section-explanation">
+                    <header>
+                        <h2>Cara Konversi dari Celsius (&deg;C) ke Fahrenheit (&deg;F)</h2>
+                    </header>
+                    <hr>
+                    <p>
+                        Suhu <span>&#119878;</span> dalam derajat Fahrenheit (&deg;F) sama dengan suhu <span>&#119878;</span> dalam derajat Celcius (&deg;C) kali <span>9/2</span> tambah <span>32</span>.
+                    </p>
+
+                    <p class="formula">
+                        <span>
+                            &#119878;<sub>(&deg;F)</sub> = (&#119878;<sub>(&deg;C)</sub> x 9/2) + 32
+                        </span>
+                        
+                        <br>atau</br>
+
+                        <span>
+                            &#119878;<sub>(&deg;F)</sub> = (&#119878;<sub>(&deg;C)</sub> x 1,8) + 32
+                        </span>
+                    </p>
+        </main>
 
     </body>
 
