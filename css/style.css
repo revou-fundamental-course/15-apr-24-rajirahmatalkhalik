@@ -11,10 +11,28 @@ main {
     text-align: center;
 } 
 
+/* Main Section */
 .main-section {
     padding: 16px;
     background-color: aliceblue;
     border-radius: 4px;
+}
+
+input {
+    width: 100%;
+    height: 52px;
+    resize: none;
+    border: 2px solid lavender;
+    border-radius: 4px;
+    font-size: 16px;
+    color: coral;
+}
+
+
+/* Section Calculation */
+.section-calculation {
+    padding-left: 8px;
+    padding-right: 8px;
 }
 
 .section-celcius {
@@ -29,21 +47,32 @@ main {
     padding-top: 16px;
 }
 
+/* Section Link */
+.section-link {
+    padding-top: 32px;
+}
+
+a {
+    text-decoration: none;
+    color: magenta;
+}
+
+
+/* Section Explanation */
 .section-explanation {
-    padding-top: 16px;
+    padding-top: 1px;
 }
 
-input {
-    width: 100%;
-    height: 52px;
-    resize: none;
-    border: 2px solid lavender;
-    border-radius: 4px;
-    font-size: 16px;
-    color: coral;
+span {
+    font-size: 1.3em;
+}
+
+.formula {
+    line-height: 200%;
 }
 
 
+/* Style Button */
 .container-button {
     padding-top: 8px;
 }
@@ -56,27 +85,38 @@ button {
     font-family: arial;
 }
 
-#button-convert {
+/* Button Celcius-Fahrenheit */
+#button-convert-cf {
     background-color: forestgreen;
     color: white;
     margin-right: 8px;
 }
 
-#button-reset {
+#button-reset-cf {
     background-color: royalblue;
     color: white;
     margin-right: 8px;
 }
 
-#button-reverse {
+#button-reverse-cf {
     background-color: palevioletred;
     color: white;
 }
 
-span {
-    font-size: 1.3em;
+/* Button Celcius-Fahrenheit */
+#button-convert-fc {
+    background-color: forestgreen;
+    color: white;
+    margin-right: 8px;
 }
 
-.formula {
-    line-height: 200%;
+#button-reset-fc {
+    background-color: royalblue;
+    color: white;
+    margin-right: 8px;
+}
+
+#button-reverse-fc {
+    background-color: palevioletred;
+    color: white;
 }

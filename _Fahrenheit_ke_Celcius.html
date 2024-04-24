@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Temperatur Converter</title>
+    </head>
+
+    <body>
+        <main>
+            <header class="main-title">
+                <h1>Temperatur Converter by Raji Rahmatal Khalik</h1>
+            </header>
+
+
+            <section class="main-section">
+                <!--Section Indroduction-->
+                <section>
+                    <p>Masukkan suhu derajat Fahrenheit (&deg;F) ke kotak dibawah, lalu klik tombol Konversi untuk mendapatkan hasil konversi dalam bentuk Celcius (&deg;C).</p>
+                </section>
+    
+                <!--Section Calculation-->
+                <section class="section-calculation">
+                    <section class="section-fahrenheit">
+                        <header>
+                            <h3>Fahrenheit (&deg;F)</h3>
+                        </header>
+        
+                        <article>
+                            <input type="number" name="fahrenheit-input" placeholder=" Input">
+    
+                            <div class="container-button">
+                                <button id="button-convert-fc">Convert</button>
+                                <button id="button-reset-fc">Reset</button>
+                                <button id="button-reverse-fc">Reverse</button>
+                            </div>
+                        </article>
+                    </section>
+    
+                    <section class="section-celcius">
+                        <header>
+                            <h3>Celcius (&deg;C)</h3>
+                        </header>
+        
+                        <article>
+                            <input type="number" name="celcius-output" placeholder=" Output">
+                        </article>
+                    </section>
+    
+                    <section class="section-result">
+                        <header>
+                            <h3>Cara Kalkulasi</h3>
+                        </header>
+        
+                        <article>
+                            <input type="text" name="fahrenheit-celcius" placeholder=" Method">
+                        </article>
+                    </section>
+
+                </section>
+
+                <!--Link-->
+                <section class="section-link">
+                    <p><a href="_Celcius_ke_Fahrenhait.html"><b><i>_Celcius_ke_Fahrenhait</i></b></a></p>
+                </section>
+
+                <!--Section Explanation-->
+                <section class="section-explanation">
+                    <header>
+                        <h2>Cara Konversi dari Fahrenheit (&deg;F) ke Celcius (&deg;C)</h2>
+                    </header>
+                    <hr>
+                    <p>
+                        Suhu <span>&#119878;</span> dalam derajat Celcius (&deg;C) sama dengan suhu <span>&#119878;</span> dalam derajat Fahrenheit (&deg;F) kurang <span>32</span> bagi <span>9/5</span>.
+                    </p>
+
+                    <p class="formula">
+                        <span>
+                            &#119878;<sub>(&deg;C)</sub> = (&#119878;<sub>(&deg;F)</sub> - 32) / 9/5
+                        </span>
+                        
+                        <br>atau</br>
+
+                        <span>
+                            &#119878;<sub>(&deg;C)</sub> = (&#119878;<sub>(&deg;F)</sub> - 32) / 1,8
+                        </span>
+                    </p>
+        </main>
+
+        <script src="js/fc_script.js"></script>
+  </body>
+</html>
